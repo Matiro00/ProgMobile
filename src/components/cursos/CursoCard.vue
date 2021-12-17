@@ -56,7 +56,7 @@ export default {
         persistent:true
       }).onOk(()=>{
         this.$q.notify({
-        message: 'El curso se fue elimina2',
+        message: 'El curso se elimino con exito',
         color: 'positive'
       })
         this.eliminarCurso(this.id)

@@ -64,7 +64,7 @@ export default {
       validar(this.consulta);
       this.editarConsulta(this.consulta)
       this.$q.notify({
-        message: 'Consulta modificada exitosamente',
+        message: 'Respuesta publicada exitosamente',
         color: 'positive'
       })
       this.$emit('cerrarAltaRespuesta')

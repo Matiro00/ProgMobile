@@ -73,7 +73,7 @@ export default {
         persistent:true
       }).onOk(()=>{
         this.$q.notify({
-        message: 'La consulta se fue elimina2',
+        message: 'La consulta se elimino con exito',
         color: 'positive'
       })
         this.eliminarConsulta(this.id)

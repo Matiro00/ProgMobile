@@ -51,7 +51,7 @@
 
 <script>
 import FormNombreCurso from '../curso_components/FormNombreCurso.vue'
-import FormDescripcion from '../curso_components/FormDescripcion.vue'
+import FormDescripcion from '../comunes/FormDescripcion.vue'
 import FormFecha from '../curso_components/FormFecha.vue'
 import { mapActions, mapGetters } from 'vuex'
 import { AGREGARCURSO } from 'src/store/cursos/types'

@@ -49,7 +49,7 @@
 
 <script>
 import FormNombre from '../comunes/FormNombre.vue'
-import FormDescripcion from '../curso_components/FormDescripcion.vue'
+import FormDescripcion from '../comunes/FormDescripcion.vue'
 import FormFecha from '../curso_components/FormFecha.vue'
 import { mapActions, mapGetters } from 'vuex'
 import { EDITARCURSO } from 'src/store/cursos/types'

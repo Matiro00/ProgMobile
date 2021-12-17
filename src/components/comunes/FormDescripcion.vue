@@ -5,6 +5,9 @@
       class="col"
       label="Descripcion"
       ref="descripcion"
+      type="textarea"
+      float-label="Textarea"
+      rows="7"
       :rules="[ descripcion => descripcion.length <= 300 || 'Limite de 300 caracteres' ]"
       :lazy-rules='true'
       :modelValue="descripcion"

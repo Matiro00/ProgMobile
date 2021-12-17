@@ -40,8 +40,8 @@
 <script>
 import FormNombre from '../comunes/FormNombre.vue'
 import FormEmail from '../comunes/FormEmail.vue'
-import FormAsunto from '../consulta_components/FormConsulta.vue'
-import FormDescripcion from '../curso_components/FormDescripcion.vue'
+import FormAsunto from '../consulta_components/FormAsunto.vue'
+import FormDescripcion from '../comunes/FormDescripcion.vue'
 import { mapActions, mapGetters } from 'vuex'
 import { EDITARCONSULTA } from 'src/store/consultas/types'
 export default {

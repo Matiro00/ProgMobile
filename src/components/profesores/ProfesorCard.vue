@@ -59,7 +59,7 @@ export default {
         persistent:true
       }).onOk(()=>{
         this.$q.notify({
-        message: 'Profesor '+this.profesor.nombre +' se fue elimina2',
+        message: 'Profesor '+this.profesor.nombre +' se elimino con exito',
         color: 'positive'
       })
         this.eliminarProfesor(this.id)
